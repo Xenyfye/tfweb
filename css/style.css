@@ -43,11 +43,11 @@ body {
 }
 
 #logo {
-	height: 200px;
-	margin-top: 15%;
+    height: 200px;
+	margin-top: 10%;
 }
 
 #navbar {
-	margin-top: 5%;
+	margin-bottom: 5%;
 	text-align: center;
 }
