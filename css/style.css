@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap');
 
 body {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background.png') no-repeat fixed;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/background.png') no-repeat fixed;
 	background-position: center;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 #navbar,
@@ -43,8 +50,8 @@ body {
 }
 
 #logo {
-	margin-top: 10%;
-	height: 200px;
+	margin-top: 5%;
+	height: 400px;
 	width: 100%;
 	object-fit: contain;
 }

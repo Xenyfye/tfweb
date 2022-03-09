@@ -1,4 +1,4 @@
-MinecraftAPI.getServerStatus('play.totalsfreedom.me', {}, function (err, status) {
+MinecraftAPI.getServerStatus('play.totalfreedom.me', {}, function (err, status) {
 
     var s = document.querySelector('#server-status');
     var p = document.querySelector('#player-count');
