@@ -19,13 +19,13 @@ body {
 	font-weight: 800;
 }
 
-#navbar div div a {
+#navbar div {
 	position: relative;
 	color: white;
 	text-decoration: none;
 }
 
-#navbar div div a::before {
+#navbar div::before {
 	content: "";
 	position: absolute;
 	display: block;
@@ -38,16 +38,26 @@ body {
 	transition: transform 0.5s ease;
 }
 
-#navbar div div a:hover::before {
+#navbar div:hover::before {
 	transform: scaleX(1);
 }
 
 #logo {
-    height: 200px;
 	margin-top: 10%;
+	height: 200px;
+	width: 100%;
+	object-fit: contain;
 }
 
 #navbar {
 	margin-bottom: 5%;
 	text-align: center;
+}
+
+.btn {
+	background: rgba(0, 0, 0, .5);
+}
+
+.btn:hover {
+	background: rgba(0, 0, 0, .5);
 }
