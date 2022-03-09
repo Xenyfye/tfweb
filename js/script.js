@@ -28,3 +28,8 @@ MinecraftAPI.getServerStatus('play.totalfreedom.me', {
 
 	}
 });
+
+function copyIP() {
+    navigator.clipboard.writeText('play.totalfreedom.me')
+    alert("Server IP copied to clipboard.")
+  }
