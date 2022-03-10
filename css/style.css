@@ -19,6 +19,7 @@ body::-webkit-scrollbar {
 	display: none;
 }
 
+/* Utils */
 .center {
     margin-left: auto;
     margin-right: auto;
@@ -27,6 +28,7 @@ body::-webkit-scrollbar {
 	text-align: center;
 }
 
+/* Colors */
 .tf-yellow {
 	color: #ffeb3b
 }
@@ -39,6 +41,7 @@ body::-webkit-scrollbar {
 	color: #e51c23
 }
 
+/* Logo style */
 #logo {
 	margin-top: 5%;
 	height: 400px;
@@ -58,6 +61,7 @@ body::-webkit-scrollbar {
 	text-decoration: none;
 }
 
+/* "Click to copy IP" button style */
 #ip button {
 	color:white;
     background-color: transparent;
@@ -71,6 +75,7 @@ body::-webkit-scrollbar {
 	font-size: 14px;
 }
 
+/* NAVBAR STYLE */
 #navbar div {
 	display: inline;
 	position: relative;

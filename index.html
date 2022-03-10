@@ -16,32 +16,48 @@
 </head>
 
 <body>
+   <!-- LOGO -->
    <div class="center">
       <img id="logo" src="images/tflogo.png" alt="TotalFreedom">
    </div>
    
-   <p id="ip" class="center">SERVER IP <i class="fa-solid fa-angles-right"></i> <a class="tf-yellow">PLAY.TOTALFREEDOM.ME</a> <button onclick="copyIP()">Click to Copy</button></p>
+   <!-- SERVER IP -->
+   <p id="ip" class="center">
+      SERVER IP
+      <i class="fa-solid fa-angles-right"></i>
+      <a class="tf-yellow">PLAY.TOTALFREEDOM.ME</a>
+      <button onclick="copyIP()">Click to Copy</button>
+   </p>
 
+   <!-- NAVIGATION START -->
    <div id="navbar" class="center">
-      <div class="btn waves-light"><i class="fas fa-comments"></i> <a href="http://forum.totalfreedom.me" target="_blank" rel="noopener noreferrer">Forum</a>
+      <!-- FORUMS -->
+      <div class="btn waves-light">
+         <i class="fas fa-comments"></i> <a href="http://forum.totalfreedom.me" target="_blank" rel="noopener noreferrer">Forum</a>
       </div>
-      
+
+      <!-- DISCORD -->
       <div class="btn">
          <i class="fab fa-discord"></i> <a href="https://discord.com/invite/PW4savJR9a" rel="noopener noreferrer">Discord</a>
       </div>
       
+      <!-- RULES -->
       <div class="btn">
          <i class="fa-solid fa-book"></i> <a href="https://forum.totalfreedom.me/d/2961-totalfreedom-community-guidelines" rel="noopener noreferrer">Rules</a>
       </div>
       
+      <!-- VOTE -->
       <div class="btn">
          <i class="fa-solid fa-check-to-slot"></i> <a href="#" rel="noopener noreferrer">Vote</a>
       </div>
 
+      <!-- WORLD DOWNLOADER -->
       <div class="btn">
          <i class="fas fa-download"></i> <a href="https://world-download.totalfreedom.me/" rel="noopener noreferrer">World Downloader</a>
       </div>
    </div>
+
+   <!-- PLAYER COUNT -->
    <div id="players" class="center">
       <p id="status">The network is currently <span id="server-status"></span> with <span id="player-count"></span> players.</p>
    </div>
