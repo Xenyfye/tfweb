@@ -96,7 +96,8 @@ body::-webkit-scrollbar {
 
 #navbar .btn {
 	background: rgba(0, 0, 0, .5);
-	text-transform: uppercase
+	text-transform: uppercase;
+	white-space: nowrap;
 }
 
 #navbar div::before {
