@@ -20,7 +20,7 @@ MinecraftAPI.getServerStatus('play.totalfreedom.me', {}, function (err, status) 
 
     } else {
 
-        s.innerHTML = 'Offline';
+        s.innerHTML = 'offline';
         p.innerHTML = '0';
         return s.classList.add('offline-red');
 
@@ -29,5 +29,10 @@ MinecraftAPI.getServerStatus('play.totalfreedom.me', {}, function (err, status) 
 
 function copyIP() {
     navigator.clipboard.writeText('play.totalfreedom.me')
-    alert("Server IP copied to clipboard.")
+    var tooltip = document.querySelector('.IPtooltiptext');
+    var oldtext = tooltip.innerHTML
+    tooltip.innerHTML = "Copied!"
+    setTimeout(function(){
+        tooltip.innerHTML = oldtext
+    }, 2000);
 }

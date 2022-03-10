@@ -2,17 +2,25 @@
 <html lang="en">
 
 <head>
+	<title>TotalFreedom</title>
+	<!-- Metadata -->
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="TotalFreedom is the first Free OP Minecraft server, which has been up and running since 2010! Join now at play.totalfreedom.me">
+	<meta name="keywords" content="TotalFreedom, Total, Freedom, Minecraft, OP, TF, free op, worldedit, creative, freebuild">
+	<meta name="author" content="Xenyfye, Folfy_Blue">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="referrer" content="origin">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Load CSS -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- Load favicon -->
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<!-- Load JS -->
 	<script src="https://mcapi.us/scripts/minecraft.min.js"></script>
 	<script src="https://kit.fontawesome.com/0c3d3d413e.js" crossorigin="anonymous"></script>
 	<script src="js/script.js"></script>
-	<title>TotalFreedom</title>
 </head>
 
 <body>
@@ -22,15 +30,16 @@
 	</div>
 	
 	<!-- SERVER IP -->
-	<p id="ip" class="center">
-		SERVER IP
+	<div id="ip" class="center">
+		<p>Server IP</p>
 		<i class="fa-solid fa-angles-right"></i>
-		<a class="tf-yellow">PLAY.TOTALFREEDOM.ME</a>
-		<button class="hidden-mobile" onclick="copyIP()">Click to Copy</button>
-	</p>
+		<a href="#" class="tf-yellow IPtooltip" onclick="copyIP()">play.totalfreedom.me
+			<span class="IPtooltiptext">Click to copy!</span>
+		</a>
+	</div>
 
 	<!-- NAVIGATION START -->
-	<div id="navbar" class="center">
+	<nav class="center">
 		<!-- FORUMS -->
 		<div class="btn">
 			<i class="fas fa-comments"></i> <a href="http://forum.totalfreedom.me" target="_blank" rel="noopener noreferrer">Forum</a>
@@ -55,11 +64,11 @@
 		<div class="btn hide-nav-button">
 			<i class="fas fa-download"></i> <a href="https://world-download.totalfreedom.me/" rel="noopener noreferrer">World&nbsp;Downloader</a>
 		</div>
-	</div>
+	</nav>
 
 	<!-- PLAYER COUNT -->
 	<div id="players" class="center">
-		<p id="status">The network is currently <span id="server-status"></span> with <span id="player-count"></span> players.</p>
+		<p id="status">The network is currently <span id="server-status">???</span> with <span id="player-count">???</span> players.</p>
 	</div>
 </body>
 </html>
