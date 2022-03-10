@@ -61,6 +61,7 @@ nav a,
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 800;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
 #ip p {
