@@ -51,8 +51,8 @@ body::-webkit-scrollbar {
      filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
 }
 
-#navbar,
-#navbar a,
+nav,
+nav a,
 #status,
 #players,
 #ip {
@@ -80,7 +80,7 @@ body::-webkit-scrollbar {
 }
 
 /* NAVBAR STYLE */
-#navbar div {
+nav div {
 	display: inline;
 	position: relative;
 	color: white;
@@ -92,20 +92,20 @@ body::-webkit-scrollbar {
 	padding-left:16px;
 }
 
-#navbar {
+nav {
 	margin-bottom: 5%;
 	text-align: center;
 	margin:25px;
 }
 
-#navbar .btn {
+nav .btn {
 	background: rgba(0, 0, 0, .5);
 	text-transform: uppercase;
 	white-space: nowrap;
 	line-height: 43px;
 }
 
-#navbar div::before {
+nav div::before {
 	content: "";
 	position: absolute;
 	display: block;
@@ -118,12 +118,12 @@ body::-webkit-scrollbar {
 	transition: transform 0.5s ease;
 }
 
-#navbar div:hover::before {
+nav div:hover::before {
 	transform: scaleX(1);
 }
 
 @media only screen and (max-width: 768px) {
-	#navbar .hide-nav-button {
+	nav .hide-nav-button {
 		display: none;
 	}
 }
