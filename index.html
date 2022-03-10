@@ -5,7 +5,6 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,33 +19,31 @@
    <div class="center">
       <img id="logo" src="images/tflogo.png" alt="TotalFreedom">
    </div>
-   <p id="ip" class="center">SERVER IP <i class="fa-solid fa-angles-right"></i> <a
-         class="yellow-text">PLAY.TOTALFREEDOM.ME</a><button class="btn transparent z-depth-0 hide-on-small-only"
-         onclick="copyIP()">Click to Copy</button></p>
+   
+   <p id="ip" class="center">SERVER IP <i class="fa-solid fa-angles-right"></i> <a class="tf-yellow">PLAY.TOTALFREEDOM.ME</a> <button onclick="copyIP()">Click to Copy</button></p>
+
    <div id="navbar" class="center">
-      <div class="btn waves-light"><i class="fas fa-comments"></i> <a href="http://forum.totalfreedom.me"
-            target="_blank" rel="noopener noreferrer">Forum</a>
+      <div class="btn waves-light"><i class="fas fa-comments"></i> <a href="http://forum.totalfreedom.me" target="_blank" rel="noopener noreferrer">Forum</a>
       </div>
+      
       <div class="btn">
-         <i class="fab fa-discord"></i> <a href="https://discord.com/invite/PW4savJR9a"
-            rel="noopener noreferrer">Discord</a>
+         <i class="fab fa-discord"></i> <a href="https://discord.com/invite/PW4savJR9a" rel="noopener noreferrer">Discord</a>
       </div>
+      
       <div class="btn">
-         <i class="fa-solid fa-book"></i> <a
-            href="https://forum.totalfreedom.me/d/2961-totalfreedom-community-guidelines"
-            rel="noopener noreferrer">Rules</a>
+         <i class="fa-solid fa-book"></i> <a href="https://forum.totalfreedom.me/d/2961-totalfreedom-community-guidelines" rel="noopener noreferrer">Rules</a>
       </div>
+      
       <div class="btn">
          <i class="fa-solid fa-check-to-slot"></i> <a href="#" rel="noopener noreferrer">Vote</a>
       </div>
-      <div class="btn hide-on-small-only"><i class="fas fa-download"></i> <a
-            href="https://world-download.totalfreedom.me/" rel="noopener noreferrer">World
-            Downloader</a>
+
+      <div class="btn">
+         <i class="fas fa-download"></i> <a href="https://world-download.totalfreedom.me/" rel="noopener noreferrer">World Downloader</a>
       </div>
-      <p id="status">The network is currently <span id="server-status"></span> with <span id="player-count"></span>
-         players.
-      </p>
+   </div>
+   <div id="players" class="center">
+      <p id="status">The network is currently <span id="server-status"></span> with <span id="player-count"></span> players.</p>
    </div>
 </body>
-
 </html>

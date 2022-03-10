@@ -7,7 +7,7 @@ MinecraftAPI.getServerStatus('play.totalfreedom.me', {}, function (err, status) 
 
         s.innerHTML = 'offline';
         p.innerHTML = '0';
-        return s.classList.add('red-text')
+        return s.classList.add('offline-red')
 
     }
 
@@ -15,14 +15,14 @@ MinecraftAPI.getServerStatus('play.totalfreedom.me', {}, function (err, status) 
 
         s.innerHTML = "online";
         p.innerHTML = `${status.players.now}/${status.players.max}`;
-        s.classList.add('green-text');
-        return p.classList.add('green-text');
+        s.classList.add('online-green');
+        return p.classList.add('online-green');
 
     } else {
 
         s.innerHTML = 'Offline';
         p.innerHTML = '0';
-        return s.classList.add('red-text');
+        return s.classList.add('offline-red');
 
     }
 });
