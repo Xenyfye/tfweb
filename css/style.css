@@ -21,8 +21,8 @@ body::-webkit-scrollbar {
 
 /* Utils */
 .center {
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: auto !important;
+	margin-right: auto !important;
 	display: block;
 	width: 100%;
 	text-align: center;
@@ -81,7 +81,8 @@ body::-webkit-scrollbar {
 	position: relative;
 	color: white;
 	text-decoration: none;
-	margin-left:5px;
+	margin-left:3px;
+	margin-right:3px;
 	padding:4px;
 	padding-right:16px;
 	padding-left:16px;
