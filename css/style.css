@@ -98,6 +98,7 @@ body::-webkit-scrollbar {
 	background: rgba(0, 0, 0, .5);
 	text-transform: uppercase;
 	white-space: nowrap;
+	line-height: 43px;
 }
 
 #navbar div::before {
