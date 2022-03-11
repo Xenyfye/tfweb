@@ -179,4 +179,14 @@ nav div:hover::before {
 	.hidden-mobile {
 		display: none;
 	}
+	.IPtooltip:hover .IPtooltiptext {
+		visibility: hidden;
+	}
+	nav .btn {
+		display: block;
+		margin-top: 5px;
+	}
+	#logo {
+		height: 350px;
+	}
 }
