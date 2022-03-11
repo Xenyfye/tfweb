@@ -32,7 +32,7 @@ function copyIP() {
     var tooltip = document.querySelector('.IPtooltiptext');
     var oldtext = tooltip.innerHTML
     tooltip.innerHTML = "Copied!"
-    setTimeout(function(){
+    setTimeout(function () {
         tooltip.innerHTML = oldtext
     }, 2000);
 }
