@@ -51,7 +51,7 @@ body::-webkit-scrollbar {
 #logo {
 	margin-top: 5%;
 	height: 400px;
-	width: 100%;
+	width: 90%;
 	object-fit: contain;
 	-webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
 	filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
