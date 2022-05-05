@@ -180,5 +180,6 @@ nav a:hover::before {
   }
   #logo {
     height: 350px;
+    margin-bottom: -50px;
   }
 }
